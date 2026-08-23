@@ -9,11 +9,15 @@ My Python learning journey from basics to advanced.
 - Tuples
 - Sets
 - Dictionaries
-- Conditionals
-- Loops
-- Functions
-- OOP
-- Decorators
+- Conditionals (project)
+- Loops (Project)
+- Functions (Project)
+- OOP (Project)
+- Decorators (Project)
+- File Handling
+- Error handling (Project)
+- JSON
+- sqlite3 (Project)
 
 ## Goal
 
