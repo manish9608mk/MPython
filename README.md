@@ -18,6 +18,7 @@ My Python learning journey from basics to advanced.
 - Error handling (Project)
 - JSON
 - sqlite3 (Project)
+- API handling (project)
 
 ## Goal
 
