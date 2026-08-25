@@ -19,6 +19,7 @@ My Python learning journey from basics to advanced.
 - JSON
 - sqlite3 (Project)
 - API handling (project)
+- MongoDB (Project)
 
 ## Goal
 
