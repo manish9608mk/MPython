@@ -20,6 +20,7 @@ My Python learning journey from basics to advanced.
 - sqlite3 (Project)
 - API handling (project)
 - MongoDB (Project)
+- Python virtual environment (practical)
 
 ## Goal
 

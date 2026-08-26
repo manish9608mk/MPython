@@ -1,13 +1,14 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Virtual environments
 .venv/
 venv/
 
-# Environment/secrets
+# Environment variables
 .env
+.env.*
 
 # macOS
 .DS_Store
