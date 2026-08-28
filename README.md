@@ -21,6 +21,8 @@ My Python learning journey from basics to advanced.
 - API handling (project)
 - MongoDB (Project)
 - Python virtual environment/venv (practical)
+- Python related tools
+- git and Github
 
 ## Goal
 

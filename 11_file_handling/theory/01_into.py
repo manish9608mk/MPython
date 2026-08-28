@@ -1,4 +1,52 @@
 '''
+What exactly is File Handling?
+A Python program normally works with data in memory:
+Python Program
+      ↓
+     RAM
+      ↓
+   variables
+
+But RAM is temporary. When the program stops, variables disappear.
+Files provide persistent storage:
+             Python Program
+                    │
+          ┌─────────┴─────────┐
+          ↓                   ↓
+        RAM                 Storage
+          │                   │
+      variables          files/directories
+                              │
+                ┌─────────────┼─────────────┐
+                ↓             ↓             ↓
+              .txt          .json          .csv
+              .py           .log           .jpg
+              .pdf          .db            ...
+
+So:
+File handling = allowing a Python program to communicate with persistent data stored on storage.
+
+                    FILE HANDLING
+                         │
+          ┌──────────────┼──────────────┐
+          ↓              ↓              ↓
+        PATH           ACCESS          DATA
+          │              │              │
+       pathlib        open()       read/write
+          │              │              │
+       file/dir       modes          text/binary
+                         │
+                ┌────────┼────────┐
+                ↓        ↓        ↓
+                r        w        a
+              read     overwrite  append
+
+'''
+
+
+
+
+'''
 FILE HANDLING
 ==============
 - File handling allows a program to communicate with data stored in files.
@@ -339,4 +387,77 @@ MOST IMPORTANT THINGS TO REMEMBER
 File handling means:
 How can my Python program safely work with
 data stored in files?
+    
+    
+'''
+
+
+
+'''
+FILE HANDLING
+│
+├── BASIC
+│   ├── open()
+│   ├── close()
+│   └── with open()
+│
+├── MODES
+│   ├── r       
+│   ├── w       
+│   ├── a       
+│   ├── x
+│   ├── r+
+│   ├── w+      
+│   └── a+
+│
+├── READING
+│   ├── read()
+│   ├── read(n)
+│   ├── readline()
+│   ├── readlines()
+│   └── iteration
+│
+├── WRITING
+│   ├── write()
+│   ├── writelines()
+│   └── \n
+│
+├── POINTER
+│   ├── tell()
+│   └── seek()
+│
+├── ENCODING
+│   └── UTF-8
+│
+├── BINARY
+│   ├── rb
+│   └── wb
+│
+├── PATHLIB
+│   ├── exists()
+│   ├── is_file()
+│   ├── is_dir()
+│   ├── mkdir()
+│   ├── iterdir()
+│   ├── glob()
+│   └── rglob()
+│
+├── FILE MANAGEMENT
+│   ├── rename
+│   ├── move
+│   ├── copy
+│   └── delete
+│
+├── EXCEPTIONS
+│   ├── FileNotFoundError
+│   ├── PermissionError
+│   └── FileExistsError
+│
+├── JSON 
+│
+├── CSV 
+│
+├── LARGE FILES 
+│
+└── LOGGING
 '''

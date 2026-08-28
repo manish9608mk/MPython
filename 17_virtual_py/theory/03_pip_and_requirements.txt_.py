@@ -1,4 +1,39 @@
 '''
+Suppose: 1. You already installed google-genai ✅
+Now create requirements.txt from your current virtual environment:
+python -m pip freeze > requirements.txt
+This creates:
+ex-
+01_project/
+├── .venv/
+├── code_files/
+└── requirements.txt
+
+2. Check the file:
+cat requirements.txt
+You'll see packages like: google-genai==2.20.0 or......
+It may contain all packages installed in your .venv, including dependencies of google-genai. That's normal.
+
+
+3. When another person clones your project
+They create and activate their own .venv, then run:
+python -m pip install -r requirements.txt
+That installs the dependencies required by your project.
+
+
+⭐ Important distinction:
+To create/update the file:
+python -m pip freeze > requirements.txt
+
+To install from the file:
+python -m pip install -r requirements.txt
+'''
+
+
+
+
+
+'''
 Essential Python Virtual Environment Workflow - 
 
 Remember this workflow:
@@ -36,6 +71,10 @@ pip install -r = requirements.txt → Installed packages
 
 OR,
 '''
+
+
+
+
 
 '''
 MUST REMEMBER — Python Virtual Environment
@@ -84,7 +123,6 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
     = Install all packages from the file
 '''
-
 
 
 
