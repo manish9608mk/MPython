@@ -23,6 +23,8 @@ My Python learning journey from basics to advanced.
 - Python virtual environment/venv (practical)
 - Python related tools
 - git and Github
+- Gemini Model (Project)
+- Streamlit
 
 ## Goal
 
