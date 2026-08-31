@@ -24,7 +24,7 @@ My Python learning journey from basics to advanced.
 - Python related tools
 - git and Github
 - Gemini Model (Project)
-- Streamlit
+- Streamlit (Project)
 
 ## Goal
 
