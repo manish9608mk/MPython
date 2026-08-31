@@ -7,6 +7,17 @@ which pip
 python -m pip install streamlit
 
 
+for run steamlit:
+source .venv/bin/activate
+which python3
+streamlit --version
+ls
+streamlit run project/01_basic.py or folder name 
+
+
+
+
+
 learning target final:
 Python
   ↓

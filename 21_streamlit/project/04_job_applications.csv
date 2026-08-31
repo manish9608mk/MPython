@@ -1,0 +1,50 @@
+Company,Role,Status,Location,Salary_LPA,Experience
+Google,Software Engineer,Interview,Hyderabad,28,0
+Amazon,Cloud Engineer,Applied,Bangalore,18,0
+Microsoft,Software Engineer,Rejected,Hyderabad,24,0
+TCS,DevOps Engineer,Selected,Pune,8,1
+Infosys,Cloud Engineer,Interview,Bangalore,9,0
+Wipro,Software Engineer,Applied,Pune,7,0
+Accenture,DevOps Engineer,Rejected,Bangalore,10,1
+Deloitte,Cloud Engineer,Interview,Delhi,14,1
+Flipkart,Software Engineer,Applied,Bangalore,20,0
+IBM,Cloud Engineer,Selected,Hyderabad,14,1
+Oracle,Software Engineer,Rejected,Bangalore,18,0
+Cognizant,Software Engineer,Applied,Chennai,7,0
+Capgemini,DevOps Engineer,Interview,Pune,9,1
+Adobe,Software Engineer,Applied,Noida,24,0
+Cisco,Cloud Engineer,Interview,Bangalore,16,1
+Meta,Software Engineer,Applied,Bangalore,32,0
+Netflix,Software Engineer,Applied,Bangalore,35,2
+Atlassian,Software Engineer,Interview,Bangalore,28,1
+Salesforce,Cloud Engineer,Selected,Hyderabad,18,1
+ServiceNow,Cloud Engineer,Applied,Hyderabad,16,0
+PayPal,Software Engineer,Rejected,Bangalore,20,1
+JPMorgan Chase,Software Engineer,Interview,Bangalore,14,0
+Goldman Sachs,Software Engineer,Applied,Bangalore,18,1
+Morgan Stanley,Cloud Engineer,Rejected,Mumbai,15,1
+Walmart Global Tech,Software Engineer,Selected,Bangalore,22,0
+Zomato,Software Engineer,Interview,Gurgaon,18,0
+Swiggy,Software Engineer,Applied,Bangalore,17,0
+Razorpay,Software Engineer,Rejected,Bangalore,20,1
+PhonePe,Software Engineer,Interview,Bangalore,22,1
+Meesho,Software Engineer,Applied,Bangalore,16,0
+Myntra,Software Engineer,Rejected,Bangalore,18,0
+Groww,Software Engineer,Interview,Bangalore,18,1
+CRED,Software Engineer,Applied,Bangalore,20,1
+Freshworks,Cloud Engineer,Selected,Chennai,15,0
+Zoho,Software Engineer,Applied,Chennai,10,0
+Persistent Systems,Cloud Engineer,Interview,Pune,11,1
+LTIMindtree,DevOps Engineer,Applied,Pune,9,0
+HCLTech,Cloud Engineer,Rejected,Noida,10,1
+Tech Mahindra,DevOps Engineer,Applied,Pune,8,0
+Mphasis,Cloud Engineer,Interview,Bangalore,10,1
+Coforge,DevOps Engineer,Selected,Noida,11,1
+Hexaware,Cloud Engineer,Applied,Chennai,9,0
+Thoughtworks,Software Engineer,Interview,Pune,15,1
+Red Hat,Cloud Engineer,Applied,Pune,17,1
+VMware,Cloud Engineer,Rejected,Bangalore,20,1
+NVIDIA,Software Engineer,Interview,Bangalore,30,0
+Intel,Software Engineer,Applied,Bangalore,18,0
+Qualcomm,Software Engineer,Rejected,Hyderabad,20,1
+Samsung,Software Engineer,Selected,Noida,15,0
