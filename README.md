@@ -25,6 +25,7 @@ My Python learning journey from basics to advanced.
 - git and Github
 - Gemini Model (Project)
 - Streamlit (Project)
+- NumPy
 
 ## Goal
 
