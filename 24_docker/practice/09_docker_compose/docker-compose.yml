@@ -1,0 +1,7 @@
+services:
+
+  server:
+    build: .
+    container_name: compose-server
+    ports:
+      - "8000:8000"
