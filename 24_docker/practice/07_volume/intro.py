@@ -520,3 +520,67 @@ This is why volumes are important in real-world Docker
 applications.
 ===========================================================
 """
+
+
+
+'''
+One thing to remember forever
+
+When you see:
+
+volumes:
+  - ./something:/container/path
+
+read it as:
+
+./something
+     ↓
+MY COMPUTER
+
+/container/path
+     ↓
+INSIDE CONTAINER
+
+So:
+
+- ./murphai.db:/app/murphai.db
+
+means:
+
+MY COMPUTER                         CONTAINER
+
+./murphai.db  ─────────────────→  /app/murphai.db
+
+And because your current project is:
+
+/Users/manishkumar/Documents/Explorer/MurphAI
+
+./murphai.db becomes:
+
+/Users/manishkumar/Documents/Explorer/MurphAI/murphai.db
+
+
+Your exact mental model:
+Mac
+│
+└── Documents
+     │
+     └── Explorer
+          │
+          └── MurphAI  ← THIS IS ./ (when Compose runs here)
+               │
+               ├── docker-compose.yml
+               ├── murphai.db ───────────────┐
+               ├── mlflow.db ────────────────┤
+               └── mlruns/ ──────────────────┤
+                                             │
+                                      Docker Bind Mount
+                                             │
+                         ┌───────────────────┘
+                         ↓
+                   Docker Container
+                         │
+                         ├── /app/murphai.db
+                         ├── /app/mlflow.db
+                         └── .../mlruns
+'''

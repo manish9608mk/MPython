@@ -26,6 +26,8 @@ My Python learning journey from basics to advanced.
 - Gemini Model (Project)
 - Streamlit (Project)
 - NumPy
+- FastAPI
+- Docker (practical)
 
 ## Goal
 
