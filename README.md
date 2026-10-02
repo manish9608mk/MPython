@@ -1,35 +1,59 @@
 # MPython
 
-My Python learning journey from basics to advanced.
+My Python learning journey from fundamentals to advanced topics, with practical projects and real-world tools.
 
 ## Topics Covered
 
+### Python Fundamentals
 - Python Basics
 - Lists
 - Tuples
 - Sets
 - Dictionaries
-- Conditionals (project)
-- Loops (Project)
-- Functions (Project)
-- OOP (Project)
-- Decorators (Project)
+- Conditionals
+- Loops
+- Functions
+- OOP
+- Decorators
 - File Handling
-- Error handling (Project)
+- Error Handling
 - JSON
-- sqlite3 (Project)
-- API handling (project)
-- MongoDB (Project)
-- Python virtual environment/venv (practical)
-- Python related tools
-- git and Github
-- Gemini Model (Project)
-- Streamlit (Project)
-- NumPy
+
+### Databases & APIs
+- SQLite
+- MongoDB
+- API Handling
 - FastAPI
-- Docker (practical)
+
+### Python Environment & Tools
+- Python Virtual Environments (venv)
+- Python Tools & Utilities
+- Git & GitHub
+
+### Data & AI
+- NumPy
+- Pandas
+- Gemini API / Model
+
+### Frameworks & Development
+- Streamlit
+- Docker
+
+### Cloud
+- AWS
+
+## Practical Projects
+
+- Python Projects
+- SQLite Project
+- MongoDB Project
+- API Handling Project
+- Gemini AI Project
+- Streamlit Project
+- FastAPI Project
+- Dockerized Applications
 
 ## Goal
 
-Build strong Python fundamentals for
-Software Engineering and Cloud/DevOps.
+Build strong Python fundamentals and practical development skills
+for Software Engineering, AI/ML, and Cloud/DevOps.
