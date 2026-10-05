@@ -1,0 +1,6 @@
+emp_id;name;dept;salary;join_date
+E01;Amit;ML;"1,20,000";2023-04-10
+E02;Bina;Web;95000;2022-11-01
+E03;Chirag;ML;?;2024-01-15
+E04;Divya;Data;"1,10,000";2021-07-20
+E05;Esha;Web;88000;2023-09-05
