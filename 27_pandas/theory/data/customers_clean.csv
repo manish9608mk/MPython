@@ -1,0 +1,14 @@
+customer_id,name,city,phone,email,age,signup_date,gender,newsletter,income,income_outlier,income_capped
+001,Ravi Kumar,Indore,9827012345,ravi@mail.com,21.0,2026-01-05,Male,True,30000,False,30000
+002,Asha Verma,Bhopal,9827012346,asha@mail.com,22.0,2026-01-12,Female,False,32000,False,32000
+003,Karan Singh,Delhi,9827012347,karan@mail.com,23.0,2026-02-15,Male,True,45000,False,45000
+004,Neha Sharma,Indore,9827012348,neha@mail.com,22.0,2026-02-20,Female,False,31000,False,31000
+005,Amit Jain,Pune,9827012349,,,2026-03-03,Male,True,33500,False,33500
+006,Sara Khan,Bhopal,,sara@mail.com,24.0,2026-03-09,Female,True,45000,False,45000
+007,Dev Patel,Delhi,9827012350,,21.0,2026-03-15,Male,False,29000,False,29000
+008,Pooja Mehta,Indore,9827012351,pooja@mail.com,,,Female,True,1200000,True,66000
+009,Isha Rao,Pune,,isha@mail.com,23.0,2026-04-02,Female,False,38000,False,38000
+010,Rohan Das,Delhi,9827012353,rohan@mail.com,24.0,2026-04-11,Male,True,52000,False,52000
+011,Tara Nair,Bhopal,9827012354,tara@mail.com,25.0,2026-05-01,Female,False,28000,False,28000
+012,Vikram Joshi,Indore,9827012355,vikram@mail.com,26.0,2026-05-09,Male,True,41000,False,41000
+013,Meena Iyer,Pune,9827012356,meena@mail.com,27.0,2026-05-20,Female,False,36000,False,36000

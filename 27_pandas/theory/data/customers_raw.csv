@@ -1,0 +1,15 @@
+Customer ID, Full Name ,City,Phone,Email,Age,Monthly Income,Signup Date,Gender,Newsletter
+001,  ravi KUMAR,indore,+91 98270-12345,ravi@mail.com,21,"₹30,000",2026-01-05,M,Yes
+002,Asha  Verma,Bhopal ,9827012346,ASHA@MAIL.COM,22,"₹ 32,000",12/01/2026,female,no
+003,KARAN singh ,DELHI,(91) 9827 012347,karan@mail,twenty three,45000,15 Feb 2026,F,Y
+004,neha Sharma,Indore,98270 12348,neha@mail.com,22,"₹31,000",2026/02/20,Female,N
+005,Amit Jain,pune,09827012349,amit@@mail.com,-1,"₹33,500",03-03-2026,male,yes
+006,sara khan,bhopal,N/A,sara@mail.com,24,"₹45,000",2026-03-09,f,1
+007,Dev Patel,New Delhi,98270-12350,,21,"₹29,000",2026-03-15,M,0
+008,pooja Mehta,Indore,9827012351,pooja@mail.com,250,"₹1,200,000",not available,FEMALE,True
+009,Isha Rao,Pune,123,isha@mail.com,23,"₹38,000",2026-04-02,Female,false
+010,Rohan Das,delhi,98270 12353,rohan@mail.com,24,"₹52,000",2026-04-11,Male,Yes
+003,Karan Singh,Delhi,9827012347,karan@mail.com,23,45000,15 Feb 2026,m,Y
+011,tara nair,Bhopaal,98270 12354,tara@mail.com,25,"₹28,000",2026-05-01,F,n
+012,Vikram Joshi,Indore,9827012355,vikram@mail.com,26,"₹41,000",2026-05-09,male,yes
+013,Meena Iyer,Pune,98270-12356,meena@mail.com,27,"₹36,000",2026-05-20,Female,No
