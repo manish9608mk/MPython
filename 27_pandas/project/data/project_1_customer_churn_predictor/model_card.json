@@ -1,0 +1,42 @@
+{
+  "model": "logistic regression (NumPy, L2=10, lr=0.5, 1500 steps)",
+  "train_snapshots": [
+    "2026-01-31",
+    "2026-02-28",
+    "2026-03-31"
+  ],
+  "test_snapshot": "2026-04-30",
+  "test_roc_auc": 0.7653,
+  "test_average_precision": 0.1868,
+  "weights": {
+    "tenure_months": -0.0975,
+    "is_new": 0.2085,
+    "autopay": -0.3989,
+    "monthly_charge": 0.4351,
+    "age": 0.0133,
+    "avg_data_gb_3m": -0.078,
+    "gb_now_vs_3m_ago": -0.2768,
+    "avg_outage_3m": 0.0776,
+    "max_outage_3m": 0.2822,
+    "avg_speed_ratio_3m": -0.1698,
+    "n_tickets_90d": 0.0596,
+    "n_tickets_60d": 0.2853,
+    "n_technical_90d": -0.0234,
+    "avg_resolution_h": -0.078,
+    "low_sat_60d": 0.0842,
+    "days_since_last_ticket": 0.0371,
+    "contract_Monthly": 0.8272,
+    "contract_Two-year": -0.8295,
+    "plan_Premium": -0.6392,
+    "plan_Standard": -0.2364,
+    "payment_method_Cash/Cheque": -0.4714,
+    "payment_method_NetBanking": -0.4608,
+    "payment_method_UPI AutoPay": -0.2373,
+    "city_Indore": -0.1886,
+    "city_Jaipur": -0.1483,
+    "city_Lucknow": -0.1443,
+    "city_Nagpur": -0.1234,
+    "city_Pune": 0.008
+  },
+  "bias": -3.3088
+}
