@@ -1,0 +1,23 @@
+{
+  "task": "predict delivery minutes at order time",
+  "model": "ridge regression (NumPy closed form) on log(minutes)",
+  "lambda": 316.228,
+  "split": {
+    "train_weeks": "1-10",
+    "validation_weeks": "11-12",
+    "test_weeks": "13-14"
+  },
+  "test_metrics": {
+    "MAE (min)": 4.88,
+    "RMSE (min)": 7.163,
+    "R2": 0.514,
+    "within 5 min %": 63.757,
+    "within 10 min %": 90.984
+  },
+  "promise_buffer_min": 6.76,
+  "target_on_time": 0.85,
+  "excluded_leaky_columns": [
+    "pickup_at",
+    "delivered_at"
+  ]
+}
