@@ -1,0 +1,6 @@
+cluster,customers,recency_days,frequency,monetary,avg_order_value,tenure_days,sale_share,avg_units,cancel_rate,share_of_customers_%,share_of_revenue_%,segment
+0,765,16.0,14.0,62433.0,4607.14,349.0,0.06,4.75,0.01,30.6,59.94,Champions
+1,654,53.0,12.0,9298.0,789.82,314.5,0.62,2.38,0.04,26.16,5.58,Bargain hunters
+2,66,64.0,4.0,374552.0,98517.58,289.5,0.08,176.5,0.0,2.64,22.18,Wholesale buyers
+3,659,258.0,4.0,15972.0,3990.0,340.0,0.02,4.5,0.02,26.36,10.69,At risk (gone quiet)
+4,356,17.0,1.0,3654.0,2380.0,33.0,0.0,3.69,0.02,14.24,1.6,New customers

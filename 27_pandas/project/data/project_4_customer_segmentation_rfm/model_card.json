@@ -1,0 +1,88 @@
+{
+  "method": "K-Means (NumPy, k-means++, 8 restarts) on log-transformed, standardised features",
+  "features": [
+    "recency_days",
+    "frequency",
+    "monetary",
+    "avg_order_value",
+    "avg_units_per_order",
+    "tenure_days",
+    "sale_share"
+  ],
+  "log_features": [
+    "recency_days",
+    "frequency",
+    "monetary",
+    "avg_order_value",
+    "avg_units_per_order",
+    "tenure_days"
+  ],
+  "k": 5,
+  "silhouette": 0.461,
+  "stability_ari": 0.912,
+  "scaler_mean": {
+    "recency_days": 3.7467,
+    "frequency": 2.0781,
+    "monetary": 9.7632,
+    "avg_order_value": 7.9001,
+    "avg_units_per_order": 1.6523,
+    "tenure_days": 5.4182,
+    "sale_share": 0.1877
+  },
+  "scaler_std": {
+    "recency_days": 1.4121,
+    "frequency": 0.8042,
+    "monetary": 1.4698,
+    "avg_order_value": 1.1104,
+    "avg_units_per_order": 0.6682,
+    "tenure_days": 0.8746,
+    "sale_share": 0.2748
+  },
+  "centres_standardised": [
+    [
+      -0.739,
+      0.8458,
+      0.9255,
+      0.4838,
+      0.1776,
+      0.4669,
+      -0.4554
+    ],
+    [
+      0.0218,
+      0.5363,
+      -0.4484,
+      -1.0899,
+      -0.6501,
+      0.3074,
+      1.5682
+    ],
+    [
+      0.1701,
+      -0.6565,
+      2.0302,
+      3.2127,
+      5.2673,
+      0.0544,
+      -0.3959
+    ],
+    [
+      1.1924,
+      -0.6977,
+      -0.2305,
+      0.296,
+      0.0273,
+      0.3939,
+      -0.619
+    ],
+    [
+      -0.6909,
+      -1.3895,
+      -1.1147,
+      -0.1807,
+      -0.2144,
+      -2.3074,
+      -0.6831
+    ]
+  ]
+}
