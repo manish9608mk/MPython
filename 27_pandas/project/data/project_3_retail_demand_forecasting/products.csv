@@ -1,0 +1,9 @@
+sku,name,category,shelf_life_days,price,cost,salvage
+MILK,Milk 1L,dairy,2,56,45,0.0
+CURD,Curd 400g,dairy,5,40,28,0.0
+BREAD,Bread,bakery,3,45,32,0.1
+EGGS,Eggs (12),protein,10,84,66,0.5
+TOMATO,Tomato 1kg,vegetable,5,40,26,0.2
+ONION,Onion 1kg,vegetable,14,35,25,0.8
+PANEER,Paneer 200g,dairy,5,110,78,0.0
+BANANA,Banana 1 dozen,fruit,3,60,38,0.3

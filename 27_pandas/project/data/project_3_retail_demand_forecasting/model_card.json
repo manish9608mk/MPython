@@ -1,0 +1,26 @@
+{
+  "task": "forecast daily demand with a 2-day lead time, then set order quantities (newsvendor)",
+  "model": "ridge regression (NumPy closed form) on log1p(units), global model with product interactions",
+  "lambda": 0.1,
+  "n_features": 109,
+  "split": {
+    "train_end": "2026-02-10",
+    "valid_start": "2026-02-11",
+    "test_start": "2026-04-08"
+  },
+  "test_metrics": {
+    "WAPE %": 14.68,
+    "bias %": 2.09,
+    "MAE (units)": 19.04
+  },
+  "critical_ratios": {
+    "MILK": 0.464,
+    "CURD": 0.533,
+    "BREAD": 0.552,
+    "EGGS": 0.645,
+    "TOMATO": 0.62,
+    "ONION": 0.846,
+    "PANEER": 0.527,
+    "BANANA": 0.662
+  }
+}

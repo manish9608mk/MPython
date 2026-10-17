@@ -1,0 +1,6 @@
+,units ordered,units wasted,units lost (stock-out),fill rate %,days with a stock-out %,waste %,waste cost Rs,lost-sales cost Rs,TOTAL cost Rs
+1. manager rule (actual stock),330125.0,61879.0,15768.0,94.45,27.14,18.74,1831466.6,696978.0,2528444.6
+2. forecast only,263599.0,15736.0,36151.0,87.27,59.34,5.97,459337.0,1557149.0,2016486.0
+3. forecast + 95% safety for all,333112.0,58249.0,9151.0,96.78,20.18,17.49,1780114.2,390915.0,2171029.2
+4. NEWSVENDOR (product-specific),281129.0,24366.0,27251.0,90.41,48.71,8.67,617333.8,1217386.0,1834719.8
+5. newsvendor on model v1 (ignores sold-out days),267867.0,18475.0,34622.0,87.81,58.65,6.9,460811.8,1543160.0,2003971.8
